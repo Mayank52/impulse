@@ -16,7 +16,7 @@ p {
 
 @media (max-width: 1024px) {
   p {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -61,7 +61,7 @@ p {
 
 @media (max-width: 1024px) {
   .section-heading {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 
@@ -83,7 +83,7 @@ p {
 
 @media (max-width: 1024px) {
   .title {
-    padding-top: 50%;
+    padding-top: 40%;
     text-align: center;
   }
 }
@@ -135,7 +135,7 @@ p {
 } */
 
 /* Events */
-.event {
+/* .event {
   text-transform: uppercase;
 }
 
@@ -161,7 +161,7 @@ p {
   position: absolute;
   right: 200px;
   top: 550px;
-}
+} */
 
 /* About Us */
 #About-us {
@@ -206,9 +206,8 @@ p {
 /* Sponsors */
 
 .sponsors-img {
-  height: 300px;
-  border-radius: 25px;
-  width: 100%;
+  border-radius: 45px;
+  width: 80%;
   padding: 4%;
 }
 
@@ -219,7 +218,7 @@ p {
 
 @media (max-width: 1024px) {
   .social-icon {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
@@ -235,7 +234,7 @@ p {
 
 @media (max-width: 1024px) {
   .copyright {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
