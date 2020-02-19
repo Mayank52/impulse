@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   line-height: 2;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 @media (max-width: 1024px) {
@@ -58,6 +58,7 @@ p {
 .section-heading {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
+  padding-top: 1%;
   padding-bottom: 2%;
   color: #25CED1;
 }
@@ -101,13 +102,49 @@ p {
   }
 }
 
-
-
 /* About Us */
 #About-us {
   /* min-height: 100vh; */
-  width: 90%;
+  font-family: Montserrat;
+  font-size: 0.5rem;
+  width: 80%;
   margin: 0 auto;
+  color: #c8ece9;
+}
+
+.about-highlight {
+  font-weight: 300;
+  font-size: 2rem;
+  font-style: normal;
+  font-color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .about-highlight {
+    font-weight: 300;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-color: #fff;
+  }
+}
+
+/* Events */
+.event-name {
+  margin: 1%;
+}
+
+.event-name:hover {
+  color: #ed254e;
+}
+
+@media (max-width: 1024px) {
+  .event-heading {
+    padding: 10%;
+  }
+
+  .event-name {
+    font-size: 1rem;
+  }
 }
 
 /* Past Events */
@@ -115,15 +152,26 @@ p {
   width: 90%;
   margin: 0 auto;
 }
-.past-event-heading{
+
+.past-event-heading {
   font-weight: 800;
 }
+
 .past-event-img {
   width: 80%;
+  padding-top: 30%;
+}
+
+.first-event {
+  padding-top: 40%;
 }
 
 .previous-events {
   text-align: left;
+}
+
+.impulse-18 {
+  padding-top: 2%;
 }
 
 @media (max-width: 1024px) {
@@ -135,10 +183,10 @@ p {
     width: 50%;
     padding: 4%;
   }
-  .first-event{
+
+  .first-event {
     padding-top: 0;
   }
-
 
   .previous-events {
     text-align: center;
@@ -146,7 +194,6 @@ p {
 }
 
 /* Sponsors */
-
 .sponsors-img {
   border-radius: 20px;
   width: 80%;
@@ -154,7 +201,6 @@ p {
 }
 
 /* Footer */
-
 .social-icon {
   margin: 20px 0 20px 10px;
 }
@@ -179,22 +225,25 @@ p {
   .copyright {
     font-size: 2rem;
   }
-  .map-nav{
+
+  .map-nav {
     background-color: #000;
     font-size: 0/9rem;
   }
-  .address-line{
+
+  .address-line {
     font-size: 0.9rem;
     padding-bottom: 3%;
     margin: 0;
   }
+
   .copyright {
     margin: 0;
     font-size: 0.9rem;
   }
 }
 
-.address{
+.address {
   font-size: 0.5rem;
   padding-top: 2%;
 }
