@@ -126,6 +126,10 @@ p {
     font-style: normal;
     font-color: #fff;
   }
+
+  #About-us {
+    width: 90%;
+  }
 }
 
 /* Events */
