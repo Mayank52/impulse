@@ -87,6 +87,8 @@ p {
 
 .title {
   padding: 15%;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .tagline{
   font-family: 'Inconsolata' ;
