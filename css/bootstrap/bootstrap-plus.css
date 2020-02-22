@@ -10374,7 +10374,7 @@ a.text-darker:focus {
 .btn,
 .navbar .navbar-nav>a.btn {
   border-width: 2px;
-  border: none;
+  /* border: none; */
   position: relative;
   overflow: hidden;
   margin: 4px 1px;
