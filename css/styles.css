@@ -132,6 +132,31 @@ p {
   }
 }
 
+/* Motivational Speaker */
+.speaker-img{
+  /* border-radius: 50%; */
+  width: 30%;
+  padding-bottom: 5%;
+  border-radius: 100%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  font-family: Montserrat;
+  background: transparent;
+  border-color: #fff;
+  font-size: 1rem;
+}
+.reg-arrow{
+  padding-left: 2%;
+}
+@media (max-width: 1024px) {
+  .speaker-img{
+    width: 70%;
+    border-radius: 100%;
+    padding: 5%;
+  }
+}
 /* Events */
 .event-name {
   margin: 1%;
