@@ -178,10 +178,11 @@ p {
 	border-color: #ed254e;
 }
 .know-btn:hover{
-  background: #ed254e;
+  background: #011638;
 }
 .register-btn:hover{
   background: #ed254e;
+  border-color: #ed254e;
   color: #fff;
 }
 .reg-arrow{
@@ -252,13 +253,13 @@ p {
   -o-transform: translateY(0);
   transform: translateY(0);
 }
-.single-portfolio:hover .portfolio-text{
+/* .single-portfolio:hover .portfolio-text{
   -webkit-transform: translateY(100%);
   -moz-transform: translateY(100%);
   -ms-transform: translateY(100%);
   -o-transform: translateY(100%);
   transform: translateY(100%);
-}
+} */
 .single-portfolio:hover .portfolio-img{
   -webkit-transform: scale(1.15);
   -moz-transform: scale(1.15);
