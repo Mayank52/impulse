@@ -188,7 +188,7 @@ sup {
 }
 
 a {
-  color: #e14eca;
+  /* color: #e14eca; */
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -14332,10 +14332,10 @@ h6 {
   color: rgba(255, 255, 255, 0.8);
 }
 
-a {
+/* a {
   color: #ba54f5;
   font-weight: 300;
-}
+} */
 
 a:hover,
 a:focus {
