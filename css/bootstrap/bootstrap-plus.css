@@ -12385,11 +12385,11 @@ fieldset[disabled] .btn-link.active {
   }
 }
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
   .dropdown-menu .dropdown-item {
     color: #9A9A9A;
   }
-}
+} */
 
 .footer {
   padding: 50px 0;
