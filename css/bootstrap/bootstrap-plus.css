@@ -2327,7 +2327,7 @@ textarea.form-control {
 .btn:focus,
 .btn.focus {
   outline: 0;
-  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  /* box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); */
 }
 
 .btn.disabled,
@@ -10415,11 +10415,11 @@ a.text-darker:focus {
 .navbar .navbar-nav>a.btn:active:hover,
 .navbar .navbar-nav>a.btn.active:focus,
 .navbar .navbar-nav>a.btn.active:hover {
-  background-color: #263148 !important;
+  /* background-color: #263148 !important;
   background-image: linear-gradient(to bottom left, #344675, #263148, #344675) !important;
   background-image: -webkit-linear-gradient(to bottom left, #344675, #263148, #344675) !important;
   background-image: -o-linear-gradient(to bottom left, #344675, #263148, #344675) !important;
-  background-image: -moz-linear-gradient(to bottom left, #344675, #263148, #344675) !important;
+  background-image: -moz-linear-gradient(to bottom left, #344675, #263148, #344675) !important; */
   color: #ffffff;
   box-shadow: none;
 }
@@ -10537,7 +10537,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 
 .btn.btn-link,
 .navbar .navbar-nav>a.btn.btn-link {
-  color: #344675;
+  /* color: #344675; */
 }
 
 .btn.btn-link:hover,
@@ -14363,7 +14363,7 @@ h2,
 
 h3,
 .h3 {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   line-height: 1.4em;
 }
 
