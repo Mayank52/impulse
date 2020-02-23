@@ -111,7 +111,7 @@ p {
     text-align: center;
   }
   .tagline{
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
   .logo-img{
     display: none;
@@ -169,6 +169,13 @@ p {
   background: transparent;
   border-color: #fff;
   font-size: 1rem;
+}
+.know-btn:hover{
+  background: #ed254e;
+}
+.register-btn:hover{
+  background: #ed254e;
+  color: #fff;
 }
 .reg-arrow{
   padding-left: 2%;
@@ -231,14 +238,20 @@ p {
   text-align: justify;
 }
 
-.single-portfolio:hover .portfolio-text{
+.single-portfolio .portfolio-text{
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
   -ms-transform: translateY(0);
   -o-transform: translateY(0);
   transform: translateY(0);
 }
-
+.single-portfolio:hover .portfolio-text{
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%);
+}
 .single-portfolio:hover .portfolio-img{
   -webkit-transform: scale(1.15);
   -moz-transform: scale(1.15);
@@ -283,6 +296,9 @@ p {
 
 .impulse-18 {
   padding-top: 2%;
+}
+.second-event{
+  background: #011638;
 }
 
 @media (max-width: 1024px) {
