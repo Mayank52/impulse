@@ -1,7 +1,7 @@
 body {
   text-align: center;
   background-color: #011638;
-  color: #fff;
+  color: #000;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -235,6 +235,8 @@ p {
 }
 
 .portfolio-img {
+  height: 350px;
+  width: 350px;
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   -ms-transition: all .5s;
@@ -392,6 +394,8 @@ p {
 
 .address-line {
   font-size: 1.5rem;
+  margin:0;
+  padding-bottom: 2%;
 }
 
 .map {
@@ -425,8 +429,10 @@ p {
 }
 
 .address {
+  text-align: left;
   font-size: 0.5rem;
   padding-top: 2%;
+  line-height: 1.5;
 }
 
 /* Dot Navigation */
